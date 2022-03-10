@@ -9,6 +9,20 @@ p {
   margin: auto;
 }
 
+.parameters {
+  display: flex;
+  justify-content: space-between;
+}
+.parameters-first {
+  display: flex;
+  flex-direction: column;
+}
+
+.parameters-second {
+  display: flex;
+  flex-direction: column;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -17,7 +31,7 @@ form {
 }
 
 input {
-  max-width: 300px;
+  max-width: 100px;
   height: 30px;
   font-size: 15px;
   padding-left: 10px;
@@ -26,8 +40,8 @@ input {
 label {
   font-size: 20px;
   font-weight: 900;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
   text-align: left;
 }
 
@@ -38,7 +52,7 @@ button {
   background-color: #262626;
   border: none;
   max-width: 300px;
-  height: 35px;
+  height: 40px;
   font-weight: 900;
   transition: 0.5s ease-in-out;
 }
@@ -55,6 +69,10 @@ button:hover {
   font-weight: 900;
 }
 
-span {
+.result-red {
   color: rgb(233, 42, 115);
+}
+
+.result-green {
+  color: rgb(9, 131, 9);
 }
