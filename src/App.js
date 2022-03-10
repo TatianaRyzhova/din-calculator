@@ -70,7 +70,9 @@ function handleSubmit(event) {
       <form onSubmit={handleSubmit}>
         <div className="parameters">
           <div className="parameters-first">
-            <label> a: </label>
+            <label className="tooltip"> a: 
+              <span class="tooltiptext">{'Толщина m.puborectalis < 7мм'}</span> 
+            </label>
             <input
               type="number"
               name="a"
@@ -79,7 +81,9 @@ function handleSubmit(event) {
               submitted={submitted}
               required
             />
-            <label> b: </label>
+            <label className="tooltip"> b: 
+              <span class="tooltiptext">{'Высота сухожильного центра < 10 мм'}</span> 
+            </label>
             <input
               type="number"
               name="b"
@@ -88,7 +92,9 @@ function handleSubmit(event) {
               submitted={submitted}
               required
             />
-            <label> c: </label>
+            <label className="tooltip"> c: 
+              <span class="tooltiptext">{'Толщина пучков m. bulbocavernosus'}</span>
+            </label>
             <input
               type="number"
               name="c"
@@ -98,7 +104,9 @@ function handleSubmit(event) {
               required
             />
 
-            <label> d: </label>
+            <label className="tooltip"> d: 
+              <span class="tooltiptext">{'Диастаз m. bulbocavernosus'}</span>
+            </label>
             <input
               type="number"
               name="d"
@@ -107,7 +115,9 @@ function handleSubmit(event) {
               submitted={submitted}
               required
             />
-            <label> e: </label>
+            <label className="tooltip"> e: 
+              <span class="tooltiptext">{'Передний компартмент '}</span>
+            </label>
             <input
               type="number"
               name="e"
@@ -116,7 +126,9 @@ function handleSubmit(event) {
               submitted={submitted}
               required
             />
-            <label> f: </label>
+            <label className="tooltip"> f: 
+              <span class="tooltiptext">{'Задний компартмент'}</span>
+            </label>
             <input
               type="number"
               name="f"
@@ -125,7 +137,9 @@ function handleSubmit(event) {
               submitted={submitted}
               required
             />
-            <label> g: </label>
+            <label className="tooltip"> g: 
+              <span class="tooltiptext">{'Парциальный разрыв'}</span>
+            </label>
             <input
               type="number"
               name="g"
@@ -137,7 +151,9 @@ function handleSubmit(event) {
           </div>
 
           <div className="parameters-second">
-            <label> h: </label>
+            <label className="tooltip"> h: 
+              <span class="tooltiptext">{'Полный односторонний'}</span>
+            </label>
             <input
               type="number"
               name="h"
@@ -146,7 +162,9 @@ function handleSubmit(event) {
               submitted={submitted}
               required
             />
-            <label> i: </label>
+            <label className="tooltip"> i: 
+              <span class="tooltiptext">{'Полный двусторонний'}</span>
+            </label>
             <input
               type="number"
               name="i"
@@ -155,7 +173,9 @@ function handleSubmit(event) {
               submitted={submitted}
               required
             />
-            <label> j: </label>
+            <label className="tooltip"> j: 
+              <span class="tooltiptext">{'25 - 29,9 см²'}</span>
+            </label>
             <input
               type="number"
               name="j"
@@ -165,7 +185,9 @@ function handleSubmit(event) {
               required
             />
 
-            <label> k: </label>
+            <label className="tooltip"> k: 
+              <span class="tooltiptext">{'30 - 34,9 см²'}</span>
+            </label>
             <input
               type="number"
               name="k"
@@ -174,7 +196,9 @@ function handleSubmit(event) {
               submitted={submitted}
               required
             />
-            <label> l: </label>
+            <label className="tooltip"> l: 
+              <span class="tooltiptext">{'> 35 см²'}</span>
+            </label>
             <input
               type="number"
               name="l"
@@ -183,7 +207,9 @@ function handleSubmit(event) {
               submitted={submitted}
               required
             />
-            <label> m: </label>
+            <label className="tooltip"> m: 
+              <span class="tooltiptext">{'> 40 см²'}</span>
+            </label>
             <input
               type="number"
               name="m"
@@ -192,7 +218,9 @@ function handleSubmit(event) {
               submitted={submitted}
               required
             />
-            <label> n: </label>
+            <label className="tooltip"> n: 
+              <span class="tooltiptext">{'Передний компартмент'}</span>
+            </label>
             <input
               type="number"
               name="n"
