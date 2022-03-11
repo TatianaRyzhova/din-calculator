@@ -251,8 +251,9 @@ function handleSubmit(event) {
             />
           </div>
         </div> */}
-
-        <h2>Маркеры состояния ТД (2D УЗИ)</h2>
+        <div className="tables">
+          <div className="table-with-data">
+          <h2>Маркеры состояния ТД (2D УЗИ)</h2>
         <table>
           <tr>
             <th style={{width: "20px"}}>a</th>
@@ -311,8 +312,10 @@ function handleSubmit(event) {
             </th>
           </tr>
         </table>
+          </div>
 
-        <h2>Фасциальные дефекты (2D УЗИ)</h2>
+          <div className="table-with-data">
+          <h2>Фасциальные дефекты (2D УЗИ)</h2>
         <table>
           <tr>
             <th style={{width: "20px"}}>e</th>
@@ -343,8 +346,10 @@ function handleSubmit(event) {
             </th>
           </tr>
         </table>
+          </div>
 
-        <h2>Мышечный дефект (3D УЗИ)</h2>
+          <div className="table-with-data">
+          <h2>Мышечный дефект (3D УЗИ)</h2>
         <table>
           <tr>
             <th style={{width: "20px"}}>g</th>
@@ -389,8 +394,10 @@ function handleSubmit(event) {
             </th>
           </tr>
         </table>
+          </div>
 
-        <h2>Расширение хиатуса (3D УЗИ)</h2>
+          <div className="table-with-data">
+          <h2>Расширение хиатуса (3D УЗИ)</h2>
         <table>
           <tr>
             <th style={{width: "20px"}}>j</th>
@@ -449,8 +456,10 @@ function handleSubmit(event) {
             </th>
           </tr>
         </table>
+          </div>
 
-        <h2>Фасциальные дефекты (3D УЗИ)</h2>
+          <div className="table-with-data">
+          <h2>Фасциальные дефекты (3D УЗИ)</h2>
         <table>
           <tr>
             <th style={{width: "20px"}}>n</th>
@@ -467,8 +476,9 @@ function handleSubmit(event) {
             </th>
           </tr>
          </table> 
-
-
+          </div>        
+        </div>
+        
         <button type="submit">РАССЧИТАТЬ</button>
       </form>
 
